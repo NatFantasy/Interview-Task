@@ -1,5 +1,5 @@
 ## Scenarios
-Please check the \MindMap folder for the planning of this task. Here I have used a program called xMind to map out my ideas when approaching the task. I have exported the file as a .pdf so it is more accessible. 
+Please check the /MindMap folder for the planning of this task. Here I have used a program called xMind to map out my ideas when approaching the task. I have exported the file as a .pdf so it is more accessible. 
 
 ### Setup
 1. Java installed
