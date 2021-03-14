@@ -37,9 +37,3 @@ mvn clean test -DsuiteXmlFile=testng/testng.xml
 
 ### Reporting
 After the test has run you can see a report is published to the /testReports folder.
-
-## On Completion
-
-Please either:
-1. Zip up the project and send it back to the hiring manager
-1. Publish to your github and send us the link
