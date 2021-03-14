@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-14T13:00:09 GMT" name="All Test Suite" finished-at="2021-03-14T13:00:48 GMT" duration-ms="39464">
+    <groups>
+    </groups>
+    <test started-at="2021-03-14T13:00:09 GMT" name="Search Test - Chrome" finished-at="2021-03-14T13:00:33 GMT" duration-ms="23841">
+      <class name="shops.Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:shops.Search@62230c58]" started-at="2021-03-14T13:00:09 GMT" name="setup" finished-at="2021-03-14T13:00:11 GMT" duration-ms="2109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="negativeSearchTest()[pri:0, instance:shops.Search@62230c58]" started-at="2021-03-14T13:00:11 GMT" name="negativeSearchTest" finished-at="2021-03-14T13:00:21 GMT" duration-ms="9446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchTest -->
+        <test-method signature="postiveSearchTest()[pri:0, instance:shops.Search@62230c58]" started-at="2021-03-14T13:00:21 GMT" name="postiveSearchTest" finished-at="2021-03-14T13:00:31 GMT" duration-ms="10388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postiveSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shops.Search@62230c58]" started-at="2021-03-14T13:00:31 GMT" name="tearDown" finished-at="2021-03-14T13:00:33 GMT" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shops.Search -->
+    </test> <!-- Search Test - Chrome -->
+    <test started-at="2021-03-14T13:00:09 GMT" name="Search Test - Firefox" finished-at="2021-03-14T13:00:48 GMT" duration-ms="39464">
+      <class name="shops.Search">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:shops.Search@50ad3bc1]" started-at="2021-03-14T13:00:09 GMT" name="setup" finished-at="2021-03-14T13:00:17 GMT" duration-ms="7686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="negativeSearchTest()[pri:0, instance:shops.Search@50ad3bc1]" started-at="2021-03-14T13:00:17 GMT" name="negativeSearchTest" finished-at="2021-03-14T13:00:36 GMT" duration-ms="19068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeSearchTest -->
+        <test-method signature="postiveSearchTest()[pri:0, instance:shops.Search@50ad3bc1]" started-at="2021-03-14T13:00:36 GMT" name="postiveSearchTest" finished-at="2021-03-14T13:00:46 GMT" duration-ms="10520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postiveSearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shops.Search@50ad3bc1]" started-at="2021-03-14T13:00:46 GMT" name="tearDown" finished-at="2021-03-14T13:00:48 GMT" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shops.Search -->
+    </test> <!-- Search Test - Firefox -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
