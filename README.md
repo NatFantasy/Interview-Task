@@ -1,5 +1,5 @@
 ## Scenarios
-Please check the \MindMap folder for the planning of this task. Here I have used a program called xMind to map out my ideas when approaching the task. I have exported the file as a .pdf so it is more accesible. 
+Please check the \MindMap folder for the planning of this task. Here I have used a program called xMind to map out my ideas when approaching the task. I have exported the file as a .pdf so it is more accessible. 
 
 ### Setup
 1. Java installed
@@ -22,7 +22,7 @@ docker run -d -P --link  selenium-hub:hub selenium/node-chrome-debug
 docker run -d -P --link  selenium-hub:hub selenium/node-firefox-debug
 ```
 
-To get the port number from the running nodes use the below command and use VNC viewer to connect to the instance.
+To get the port numbers from the running nodes use the below command and use VNC viewer to connect to the instances.
 
 ```sh
 docker ps -a 
@@ -36,4 +36,4 @@ mvn clean test -DsuiteXmlFile=testng/testng.xml
 ```
 
 ### Reporting
-After the test has run you can see a report is published to the /testReports folder.
+After the test has run you can see a test report is published to the /testReports folder.
