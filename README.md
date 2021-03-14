@@ -29,7 +29,7 @@ docker ps -a
 ```
 
 ### Run
-Ensure you are in the correct directory \Selenium-Interview-Task
+Ensure you are in the correct directory \Interview-Task
 
 ```sh
 mvn clean test -DsuiteXmlFile=testng/testng.xml
